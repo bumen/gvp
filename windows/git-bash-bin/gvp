@@ -127,7 +127,7 @@ function gvp_in(){
 
     export GOBIN GOPATH GVP_NAME PATH
 
-    echo ">> Local GOPATH set."
+    echo ">> Local GOPATH set ${GOPATH}"
 
     # If the user has typed another command, execute it
     if [ -n "$2" ]; then
