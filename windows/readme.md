@@ -10,6 +10,8 @@
  * 使用参考gpm-git
    + windows/git-bash-bin/readme.md
    
+ * 将gvp sh放到git/usr/bin目录下
+   
  * TODO
    + [ ] 可以进一步修改一下，初始化时保存变量GOPATH, GOBIN, PATH
       - gvp out 时还原即可，就不需要强制关闭使用过的bash窗口了
